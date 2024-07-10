@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro programa</title>
+    <style>
+        body{
+            background-color: rgb(85, 85, 150);
+            color: white;
+            font: normal 20pt Arial;
+        }
+        h1{
+            color: rgb(215, 187, 224);
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá, mundo!</h1><!--Isso é um comentario de HTML-->
+    <script>
+window.alert('Bem-vindo! A seguir pediremos que informe alguns dados.');
+var nome = window.prompt('Por favor, informe seu nome:');
+var idade = window.prompt('Por favor, informe sua idade:');
+var confirmar = window.prompt(`Você digitou que tem ${idade} anos. Está correto?`);
+document.write(`Nome do usuário digitado ${nome}</br>`)
+document.write(` A idade digitada ${idade}</br>`)
+document.write(` A confirmação da idade ${confirmar}</br>`)
+    </script>
+</body>
+</html>
